@@ -5,7 +5,7 @@ counters.forEach(counter=>{
     function counterIncreament(){
         let currentNum = +counter.innerText;
         let dataCeil = counter.getAttribute('data-ciel');
-        const increament = dataCeil / 5; 
+        const increament = dataCeil / 11; 
         currentNum = Math.ceil(currentNum + increament);
         counter.innerText = currentNum;
         if(currentNum < dataCeil){
